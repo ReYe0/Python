@@ -9,6 +9,13 @@
 
 实时显示当前时间，并可以设置自己的下班时间，然后实时显示距离下班时间的倒计时。
 
+使用PyInstaller打包Tkinter应用为exe
+```shell script
+pip install pyinstaller
+pyinstaller --onefile work_down.py
+```
+
+
 ### 交流学习
 
 如有写的不对或者错误的地方，希望大家指正，相互交流，谢谢。
